@@ -1,1 +1,10 @@
 /* common */
+.links {
+  > a {
+    color: $nav-link__color;
+
+    &.active, &.exact-active {
+      color: $nav-link__color-active;
+    }
+  }
+}

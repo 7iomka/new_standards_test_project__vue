@@ -49,4 +49,7 @@
 
 /* imports */
 @import "./material-design-icons.scss";
+// $color-pack: false;
+
+@import '~vuetify/src/styles/main.sass';
 @import "./common.scss";
